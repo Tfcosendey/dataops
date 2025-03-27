@@ -1,4 +1,4 @@
-"""Módulo principal para execução do jogo com a bola se movendo e quicando nas bordas."""
+"""Módulo principal para execução do jogo com a bola  e quicando nas bordas."""
 
 import random
 import pygame  # pylint: disable=import-error
@@ -28,7 +28,7 @@ class Bola:
         self.vel_y = vel_y
 
     def mover(self) -> None:
-        """Atualiza a posição da bola e inverte a direção se bater nas bordas."""
+        """Atualiza a posição da bola e inverte a direção se bater nas."""
         self.x += self.vel_x
         self.y += self.vel_y
 
